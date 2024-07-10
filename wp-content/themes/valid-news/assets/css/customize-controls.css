@@ -1,0 +1,6 @@
+li#accordion-section-fact-news,
+li#customize-control-nav_menu_locations-secondary,
+li#customize-control-fact_news_banner_slider_post_4,
+li#customize-control-fact_news_enable_topbar {
+	display: none !important;
+}

@@ -1,0 +1,9 @@
+li#customize-control-legal_news_editor_picks_title,
+li#customize-control-legal_news_editor_picks_content_type,
+li#customize-control-legal_news_editor_picks_post_content_category,
+li#customize-control-legal_news_editor_picks_post_content_post_1,
+li#customize-control-legal_news_editor_picks_post_content_post_2,
+li#customize-control-legal_news_editor_picks_horizontal_line,
+li#accordion-section-upsell_section {
+    display: none !important;
+}

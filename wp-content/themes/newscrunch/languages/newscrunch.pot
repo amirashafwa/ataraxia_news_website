@@ -1,0 +1,1456 @@
+# Copyright (C) 2023 spicethemes
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Newscrunch 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/newscrunch-wordpress-theme\n"
+"POT-Creation-Date: 2023-07-26 14:22+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Domain: newscrunch\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15 inc/helpers.php:315
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid "Back to Home"
+msgstr ""
+
+#: 404.php:24
+msgid "404 Image"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:68
+msgid "Installing"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:69
+#: inc/customizer-notify/newscrunch-customizer-notify.php:108
+msgid "Activating"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:70
+msgid "Error"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:105
+msgid "View Theme Info"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:114
+#, php-format
+msgid "About %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:116
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:133
+#, php-format
+msgid "%1$s theme is installed. To take full advantage of the features this theme has to offer visit our %2$swelcome page%3$s"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:136
+#, php-format
+msgid "Get started with %s theme"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:308
+msgid "Install and activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:312
+#: inc/customizer/upsell/class-customize.php:75
+#: inc/customizer/upsell/class-customize.php:86
+msgid "Import Demo"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:319
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:339
+#: inc/customizer/customizer-recommended-plugin.php:16
+msgid "Activate"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:343
+msgid "Activate Import Plugin"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:350
+#, php-format
+msgid "Activate %s now"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:359
+msgid "Active"
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:504
+msgid "To import the pre-designed demo data for the magazine theme, please install and activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:509
+msgid "To display the contact form, install & activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:514
+msgid "To enable the display of breadcrumbs, please install and activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:519
+msgid "To add a different banner image for a different page or post, install & activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:524
+msgid "To display the posts in a beautiful slider with multiple options, install & activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:529
+msgid "To add the social share buttons to your posts, install & activate this plugin."
+msgstr ""
+
+#: admin/inc/class-spicethemes-about-page.php:534
+msgid "We highly recommend installing and activating the Seo Optimized Images plugin, which will dynamically insert SEO-friendly alt attributes and title attributes to enhance your image optimization."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:15
+#, php-format
+msgid "%s Theme Configuration"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:28
+msgid "Need to install & activate the \"Spice Starter Sites\" plugin to import the demo."
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:46
+msgid "Theme Features"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:51
+msgid "Site Logo"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:55
+msgid "Site Layout"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:59
+msgid "Header Section"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:63
+#: inc/customizer/settings/general-settings.php:442
+msgid "Sidebar Layout"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:67
+msgid "Social Icons"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:71
+msgid "Footer Widgets"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:75
+msgid "Menus"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:79
+msgid "Widgets"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:87
+msgid "Useful Links"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:92
+msgid "Theme Detail"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:96
+msgid "Theme Demos"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:100
+msgid "Documentation"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:104
+msgid "Support"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:108
+msgid "Your feedback is valuable to us"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:112
+msgid "Free vs Pro"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:116
+msgid "Changelog"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:120
+msgid "Premium Version"
+msgstr ""
+
+#: admin/tab-pages/getting-started.php:124
+msgid "Pre-sales enquiry"
+msgstr ""
+
+#: comments.php:29
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:59
+msgid "Name"
+msgstr ""
+
+#: comments.php:66
+msgid "Email"
+msgstr ""
+
+#: comments.php:80 partials/widgets/featured-post.php:98
+#: partials/widgets/single-column.php:71 template-parts/content-blog.php:46
+#: template-parts/content-blog.php:47 template-parts/content-search.php:45
+#: template-parts/content-search.php:46 template-parts/content.php:49
+#: template-parts/content.php:50
+msgid "Comments"
+msgstr ""
+
+#: comments.php:84
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:84
+msgid "Log out from this Account"
+msgstr ""
+
+#: comments.php:84
+msgid "Log out"
+msgstr ""
+
+#: comments.php:86 comments.php:92
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:177
+msgid "Hello"
+msgstr ""
+
+#: functions.php:186
+msgid "Welcome to"
+msgstr ""
+
+#: functions.php:191
+#, php-format
+msgid "%s is now installed and ready to use. We've provide some links to get you started."
+msgstr ""
+
+#: functions.php:196
+msgid "Theme Dashboard"
+msgstr ""
+
+#: functions.php:200
+msgid "View Live Demos"
+msgstr ""
+
+#: functions.php:204
+msgid "Theme Documentation"
+msgstr ""
+
+#: functions.php:221
+msgid "Welcome Banner"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:33
+msgid "Add new field"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:38
+msgid "Customizer Repeater"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:263
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:389
+#: inc/customizer/settings/featured-video.php:45
+#: inc/customizer/settings/news-highlight.php:46
+#: inc/customizer/settings/news-highlight.php:73 partials/widgets/tabs.php:217
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:271
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:397
+#: partials/widgets/advertisement.php:71
+msgid "Description"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:280
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:405
+#: partials/widgets/advertisement.php:76
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:291
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:415
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:549
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:571
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:324
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:381
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:334
+msgid "Shortcode"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:351
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:436
+msgid "Delete field"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:473
+#: partials/widgets/social-icons.php:224 partials/widgets/social-icons.php:232
+#: partials/widgets/social-icons.php:240 partials/widgets/social-icons.php:248
+#: partials/widgets/social-icons.php:256 partials/widgets/social-icons.php:264
+#: partials/widgets/social-icons.php:272 partials/widgets/social-icons.php:280
+msgid "Open link in a new tab"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:484
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:525
+#: inc/customizer/settings/scroll-to-top.php:183
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:489
+#, php-format
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:507
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:526
+#: partials/widgets/advertisement.php:87
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:510
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:522
+msgid "Image type"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:527
+msgid "None"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:535
+#: inc/customizer/settings/top-header.php:232
+msgid "Social icons"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:552
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:582
+msgid "Remove Icon"
+msgstr ""
+
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:557
+#: inc/customizer/custom-controls/customizer-repeater/class/customizer-repeater-control.php:590
+#: inc/customizer/settings/top-header.php:231
+msgid "Add Icon"
+msgstr ""
+
+#: inc/customizer/customizer-recommended-plugin.php:9
+#, php-format
+msgid "Install and activate the %s plugin to import demo."
+msgstr ""
+
+#: inc/customizer/customizer-recommended-plugin.php:13
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/customizer/customizer-recommended-plugin.php:14
+msgid "Recommended Plugin"
+msgstr ""
+
+#: inc/customizer/customizer-recommended-plugin.php:15
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/customizer/customizer-recommended-plugin.php:17
+msgid "Deactivate"
+msgstr ""
+
+#: inc/customizer/settings/archives-options.php:13
+#: inc/customizer/settings/general-settings.php:460
+msgid "Blog/Archives"
+msgstr ""
+
+#: inc/customizer/settings/archives-options.php:27
+#: inc/customizer/settings/single-post-options.php:56
+msgid "Hide/Show Author"
+msgstr ""
+
+#: inc/customizer/settings/archives-options.php:41
+#: inc/customizer/settings/single-post-options.php:41
+msgid "Hide/Show Tag"
+msgstr ""
+
+#: inc/customizer/settings/archives-options.php:56
+msgid "Hide/Show Comments"
+msgstr ""
+
+#: inc/customizer/settings/archives-options.php:70
+#: inc/customizer/settings/single-post-options.php:71
+msgid "Hide/Show Date"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:12
+msgid "Bottom Footer"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:27
+#: inc/customizer/settings/scroll-to-top.php:28
+#: inc/customizer/settings/site-identity.php:23
+#: inc/customizer/settings/theme-footer.php:27
+#: inc/customizer/settings/theme-header.php:27
+#: inc/customizer/settings/top-header.php:36
+#: inc/customizer/settings/top-header.php:172
+msgid "General"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:41
+#: inc/customizer/settings/scroll-to-top.php:37
+#: inc/customizer/settings/site-identity.php:40
+#: inc/customizer/settings/theme-footer.php:41
+#: inc/customizer/settings/theme-header.php:46
+#: inc/customizer/settings/top-header.php:49
+#: inc/customizer/settings/top-header.php:184
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:66
+msgid "Enable/Disable Copyright Text"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:77 inc/helpers.php:130
+msgid "Proudly powered by"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:77 inc/helpers.php:130
+msgid "Theme"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:77 inc/helpers.php:130
+msgid "by"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:84
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:102
+msgid "Enable/Disable Footer Menu"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:121
+#: inc/customizer/settings/scroll-to-top.php:149
+#: inc/customizer/settings/site-identity.php:199
+#: inc/customizer/settings/theme-footer.php:163
+#: inc/customizer/settings/theme-header.php:169
+#: inc/customizer/settings/top-header.php:112
+#: inc/customizer/settings/top-header.php:251
+msgid "Enable/Disable Color"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:138
+#: inc/customizer/settings/theme-header.php:234
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:155
+msgid "Menu Color"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:172
+msgid "Menu Hover Color"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:189
+#: inc/customizer/settings/theme-footer.php:197
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:206
+#: inc/customizer/settings/theme-footer.php:214
+#: inc/customizer/settings/theme-header.php:185
+#: inc/customizer/settings/theme-header.php:250
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/settings/bottom-footer.php:223
+#: inc/customizer/settings/theme-footer.php:231
+#: inc/customizer/settings/theme-header.php:201
+#: inc/customizer/settings/theme-header.php:266
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:13
+#: inc/customizer/settings/featured-video.php:38
+#: inc/customizer/settings/front-sections.php:52
+#: inc/customizer/settings/front-sections.php:63
+#: partials/front/news-video.php:34
+msgid "Featured Video"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:27
+msgid "Enable/Disable Featured Video"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:63
+#: inc/customizer/settings/main-banner.php:64
+#: inc/customizer/settings/main-banner.php:122
+#: inc/customizer/settings/main-banner.php:128
+#: inc/customizer/settings/main-banner.php:222
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:80
+#: inc/customizer/settings/main-banner.php:103
+#: inc/customizer/settings/main-banner.php:184
+#: inc/customizer/settings/main-banner.php:261
+msgid "Enable/Disable Meta"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:99
+msgid "Video URL"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:115
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:129
+msgid "Enable/Disable Blog Section"
+msgstr ""
+
+#: inc/customizer/settings/featured-video.php:130
+msgid "Enable/Disable blog section on front page"
+msgstr ""
+
+#: inc/customizer/settings/front-sections.php:13
+msgid "Front Sections"
+msgstr ""
+
+#: inc/customizer/settings/front-sections.php:41
+msgid "Reorder sections"
+msgstr ""
+
+#: inc/customizer/settings/front-sections.php:51
+#: inc/customizer/settings/front-sections.php:54
+#: inc/customizer/settings/front-sections.php:62
+#: inc/customizer/settings/front-sections.php:64
+msgid "Front Content"
+msgstr ""
+
+#: inc/customizer/settings/front-sections.php:53
+msgid "Missed Section"
+msgstr ""
+
+#: inc/customizer/settings/front-sections.php:55
+#: inc/customizer/settings/front-sections.php:65
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/settings/front-sections.php:79
+msgid "Drag And Drop to Rearrange"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:21
+msgid "To Unlock SEO Optimized Images feature you need to Install and activate. The SEO Optimized Images plugin lets you dynamically insert SEO-Friendly “alt” and “title” attributes to your website images. "
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:45
+msgid "To customize the SEO Optimized Images settings, click on below link:"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:46
+#: inc/customizer/settings/general-settings.php:65
+msgid "SEO Optimized Images"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:58
+msgid "Global"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:84
+msgid "Performance(Google Font)"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:96
+msgid "Load Google Fonts Locally?"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:108
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:121
+msgid "Enable/Disable Preloader"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:134
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:148
+#: inc/customizer/settings/main-banner.php:27
+msgid "Enable/Disable Banner"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:161
+msgid "Page Title"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:188
+msgid "Enable/Disable Page Title"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:200
+msgid "page_header"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:207
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:219
+msgid "Page Header"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:220
+msgid "Content Area"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:237
+msgid "Markup"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:250
+msgid "Heading 1"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:251
+msgid "Heading 2"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:252
+msgid "Heading 3"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:253
+msgid "Heading 4"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:254
+msgid "Heading 5"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:255
+msgid "Heading 6"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:256
+msgid "Span"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:257
+msgid "Paragraph"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:258
+msgid "Div"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:274
+msgid "Alignment"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:298
+msgid "Enable/Disable Padding"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:316
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:344
+#: inc/customizer/settings/scroll-to-top.php:85
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:372
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:400
+#: inc/customizer/settings/scroll-to-top.php:84
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:427
+msgid "Enable/Disable Banner Image Overlay"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:483
+#: inc/customizer/settings/single-post-options.php:12
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:506
+msgid "Page"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:529
+msgid "Front Content 1"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:552
+msgid "Front Content 2"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:571
+#: inc/customizer/settings/general-settings.php:586
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:602
+msgid "Category Color"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:629
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:647
+msgid "Enable custom color skin"
+msgstr ""
+
+#: inc/customizer/settings/general-settings.php:666
+msgid "Skin Color"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:13
+msgid "Main Banner"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:44
+msgid "Enter spice slider shortcode here"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:45
+msgid "Enter either spice post slider shortcode or pro package shortcode here"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:81
+#: inc/customizer/settings/main-banner.php:162
+#: inc/customizer/settings/main-banner.php:239
+msgid "Orderby"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:88
+#: inc/customizer/settings/main-banner.php:89
+#: inc/customizer/settings/main-banner.php:169
+#: inc/customizer/settings/main-banner.php:170
+#: inc/customizer/settings/main-banner.php:246
+#: inc/customizer/settings/main-banner.php:247
+msgid "Newest"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:88
+#: inc/customizer/settings/main-banner.php:89
+#: inc/customizer/settings/main-banner.php:169
+#: inc/customizer/settings/main-banner.php:170
+#: inc/customizer/settings/main-banner.php:246
+#: inc/customizer/settings/main-banner.php:247
+msgid "Oldest"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:144
+#: inc/customizer/settings/news-highlight.php:145
+#: partials/widgets/post-grid-2-column-slider.php:190
+#: partials/widgets/post-grid-2-column.php:107
+#: partials/widgets/post-grid-3-column-slider.php:168
+#: partials/widgets/post-list-grid-view.php:119
+#: partials/widgets/post-list-view-slider.php:168
+#: partials/widgets/post-overlay-slider.php:283
+#: partials/widgets/single-column.php:112 partials/widgets/tabs.php:228
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/customizer/settings/main-banner.php:202
+msgid "Hide/Show Read More"
+msgstr ""
+
+#: inc/customizer/settings/news-highlight.php:13
+#: inc/customizer/settings/news-highlight.php:38
+#: partials/front/news-highlight.php:3
+msgid "News Highlight"
+msgstr ""
+
+#: inc/customizer/settings/news-highlight.php:27
+msgid "Enable/Disable News Highlight"
+msgstr ""
+
+#: inc/customizer/settings/news-highlight.php:65
+msgid "Search By"
+msgstr ""
+
+#: inc/customizer/settings/news-highlight.php:72
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/settings/news-highlight.php:88
+msgid "Select Post Category"
+msgstr ""
+
+#: inc/customizer/settings/news-highlight.php:120
+msgid "Select Post Title"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:12
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:60
+msgid "Enable/Disable Scroll To Top"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:77
+msgid "Choose Position"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:93
+msgid "fa fa-arrow-up"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:99
+msgid "Select Icon"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:106
+msgid "Arrow Up"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:107
+msgid "Double Arrow Up"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:108
+msgid "Arrow Single"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:109
+msgid "Arrow Up Long"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:125
+msgid "Border Radius"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:166
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:200
+msgid "Background Hover"
+msgstr ""
+
+#: inc/customizer/settings/scroll-to-top.php:217
+msgid "Icon Hover"
+msgstr ""
+
+#: inc/customizer/settings/single-post-options.php:26
+msgid "Hide/Show Categories"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:63
+msgid "Logo Width"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:147
+msgid "Dark Layout Logo"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:162
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:180
+msgid "Display Site Tagline"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:215
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:231
+msgid "Site Title Hover Color"
+msgstr ""
+
+#: inc/customizer/settings/site-identity.php:247
+msgid "Site Tagline Color"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:12
+msgid "Theme Footer"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:64
+msgid "Enable/Disable Footer Widgets"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:82
+msgid "Widgets Layout"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:103
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:120
+msgid "Enable/Disable Image Overlay"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:138
+msgid "Widgets Image Overlay Color"
+msgstr ""
+
+#: inc/customizer/settings/theme-footer.php:180
+msgid "Title Color"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:12
+msgid "Theme Header"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:71
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:97
+msgid "Enable/Disable Border"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:98
+#: inc/customizer/settings/theme-header.php:116
+msgid "Note: This settings will work with header 1, 2, 3"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:115
+msgid "Enable/Disable Border Radius"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:133
+msgid "Enable/Disable Search Icon"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:150
+msgid "Enable/Disable Sticky Header"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:217
+msgid "Active Link Color"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:283
+msgid "Enable/Disable Dark/Light Icon"
+msgstr ""
+
+#: inc/customizer/settings/theme-header.php:300
+msgid "Enable/Disable Toggle Icon"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:12
+msgid "Top Header"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:20
+msgid "Top Left"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:78
+msgid "Enable/Disable Date"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:94
+msgid "Enable/Disable Time"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:128
+msgid "Date Color"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:144
+msgid "Time Color"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:157
+msgid "Top Right"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:213
+msgid "Enable/Disable Social Icons"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:228
+msgid "Social Icon Details"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:267
+msgid "Icon Color"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:283
+msgid "Icon Hover Color"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:299
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/customizer/settings/top-header.php:315
+msgid "Icon Background Hover Color"
+msgstr ""
+
+#: inc/customizer/upsell/class-customize.php:76
+#: inc/customizer/upsell/class-customize.php:87
+msgid "Click Here"
+msgstr ""
+
+#: inc/helpers.php:195
+msgid "Assign Footer Menu"
+msgstr ""
+
+#: inc/helpers.php:258
+#, php-format
+msgid "%1$s  %2$s"
+msgstr ""
+
+#: inc/helpers.php:304 inc/menu/default_menu_walker.php:19
+msgid "Home"
+msgstr ""
+
+#: inc/helpers.php:318
+msgid "Category:&nbsp;"
+msgstr ""
+
+#: inc/helpers.php:321
+msgid "Tag:&nbsp;"
+msgstr ""
+
+#: inc/helpers.php:429
+msgid "Loading Now"
+msgstr ""
+
+#: inc/helpers.php:689
+msgid "Add Side Panel Widgets Area."
+msgstr ""
+
+#: inc/menu/default_menu_walker.php:51 partials/header/main-header.php:70
+msgid "Search"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:38
+msgid "Layout"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:48
+msgid "Sidebar"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:51
+#: partials/widgets/register-sidebars.php:73
+msgid "Primary"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:52
+msgid "Footer 1"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:53
+msgid "Footer 2"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:54
+msgid "Footer 3"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box-page-settings.php:55
+msgid "Footer 4"
+msgstr ""
+
+#: inc/meta-boxes/newscrunch-meta-box.php:27
+msgid "Layout Settings (Layout settings will not work with custom templates, except for the default template.)"
+msgstr ""
+
+#: partials/front/main-banner.php:58 partials/front/main-banner.php:135
+#: partials/front/main-banner.php:206 partials/front/news-highlight.php:47
+#: partials/front/news-highlight.php:70 partials/front/news-video.php:81
+#: template-parts/content-blog.php:65 template-parts/content-first.php:43
+#: template-parts/content-search.php:63 template-parts/content-single.php:44
+#: template-parts/content.php:67
+msgid "date-time"
+msgstr ""
+
+#: partials/front/main-banner.php:127 partials/widgets/featured-post.php:147
+#: template-parts/content-first.php:60
+msgid "Read More"
+msgstr ""
+
+#: partials/widgets/advertisement.php:15
+msgid "Newscrunch : Advertisement  Sidebar"
+msgstr ""
+
+#: partials/widgets/advertisement.php:18
+msgid "Display the advertisement"
+msgstr ""
+
+#: partials/widgets/advertisement.php:52 partials/widgets/featured-post.php:167
+#: partials/widgets/post-grid-2-column-slider.php:162
+#: partials/widgets/post-grid-2-column.php:82
+#: partials/widgets/post-grid-3-column-slider.php:142
+#: partials/widgets/post-list-grid-view.php:95
+#: partials/widgets/post-overlay-slider.php:257
+msgid "Widget title"
+msgstr ""
+
+#: partials/widgets/advertisement.php:61 partials/widgets/featured-post.php:177
+#: partials/widgets/post-grid-2-column-slider.php:173
+#: partials/widgets/post-grid-2-column.php:90
+#: partials/widgets/post-grid-3-column-slider.php:151
+#: partials/widgets/post-list-grid-view.php:102
+#: partials/widgets/post-list-view-slider.php:142
+#: partials/widgets/post-list-view-slider.php:151
+#: partials/widgets/post-overlay-slider.php:266
+#: partials/widgets/single-column.php:86 partials/widgets/single-column.php:95
+#: partials/widgets/social-icons.php:214
+msgid "Widget Title"
+msgstr ""
+
+#: partials/widgets/advertisement.php:66
+msgid "Heading"
+msgstr ""
+
+#: partials/widgets/advertisement.php:81
+msgid "Button URL"
+msgstr ""
+
+#: partials/widgets/advertisement.php:90
+msgid "Select Image"
+msgstr ""
+
+#: partials/widgets/featured-post.php:16
+msgid "Newscrunch : Featured Post"
+msgstr ""
+
+#: partials/widgets/featured-post.php:19
+msgid "Display your post as featured post"
+msgstr ""
+
+#: partials/widgets/featured-post.php:182
+#: partials/widgets/post-grid-2-column-slider.php:178
+#: partials/widgets/post-grid-2-column.php:95
+#: partials/widgets/post-grid-3-column-slider.php:156
+#: partials/widgets/post-list-grid-view.php:107
+#: partials/widgets/post-list-view-slider.php:156
+#: partials/widgets/post-overlay-slider.php:271
+#: partials/widgets/single-column.php:100
+msgid "Categories"
+msgstr ""
+
+#: partials/widgets/featured-post.php:184
+#: partials/widgets/post-grid-2-column.php:97
+#: partials/widgets/single-column.php:102
+msgid "Select category"
+msgstr ""
+
+#: partials/widgets/featured-post.php:195
+#: partials/widgets/post-grid-2-column-slider.php:206
+#: partials/widgets/post-grid-2-column.php:113
+#: partials/widgets/post-grid-3-column-slider.php:179
+#: partials/widgets/post-list-grid-view.php:125
+#: partials/widgets/post-list-view-slider.php:174
+#: partials/widgets/post-overlay-slider.php:289
+#: partials/widgets/single-column.php:118 partials/widgets/tabs.php:233
+msgid "Show post date"
+msgstr ""
+
+#: partials/widgets/featured-post.php:200
+#: partials/widgets/post-grid-2-column-slider.php:216
+#: partials/widgets/post-grid-3-column-slider.php:174
+#: partials/widgets/post-list-view-slider.php:184
+#: partials/widgets/post-overlay-slider.php:299
+msgid "Show post category"
+msgstr ""
+
+#: partials/widgets/featured-post.php:205
+#: partials/widgets/post-grid-2-column-slider.php:211
+#: partials/widgets/post-grid-3-column-slider.php:184
+#: partials/widgets/post-overlay-slider.php:294
+msgid "Show author details"
+msgstr ""
+
+#: partials/widgets/featured-post.php:210
+#: partials/widgets/single-column.php:123
+msgid "Show comments"
+msgstr ""
+
+#: partials/widgets/featured-post.php:215
+msgid "Show read more"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column-slider.php:15
+msgid "Newscrunch : Post Grid 2 Column Slider"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column-slider.php:18
+msgid "Display your posts as a two-column grid slider"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column-slider.php:180
+#: partials/widgets/post-grid-3-column-slider.php:158
+#: partials/widgets/post-list-grid-view.php:109
+#: partials/widgets/post-list-view-slider.php:158
+#: partials/widgets/post-overlay-slider.php:273
+msgid "All Category"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column-slider.php:195
+msgid "Left post date background color"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column-slider.php:200
+msgid "Right post date background color"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column.php:16
+msgid "Newscrunch : Post Grid 2 Column Sidebar"
+msgstr ""
+
+#: partials/widgets/post-grid-2-column.php:19
+msgid "This represent your post design layout in 2 column"
+msgstr ""
+
+#: partials/widgets/post-grid-3-column-slider.php:15
+msgid "Newscrunch : Post Grid 3 Column Slider"
+msgstr ""
+
+#: partials/widgets/post-grid-3-column-slider.php:18
+msgid "Display your posts as a three-column grid slider"
+msgstr ""
+
+#: partials/widgets/post-grid-3-column-slider.php:92
+msgid "By"
+msgstr ""
+
+#: partials/widgets/post-list-grid-view.php:16
+msgid "Newscrunch : List Grid View"
+msgstr ""
+
+#: partials/widgets/post-list-grid-view.php:19
+msgid "Display your blog in a grid view with a list layout"
+msgstr ""
+
+#: partials/widgets/post-list-view-slider.php:15
+msgid "Newscrunch : List View Slider"
+msgstr ""
+
+#: partials/widgets/post-list-view-slider.php:18
+msgid "Display your post as list view slider"
+msgstr ""
+
+#: partials/widgets/post-list-view-slider.php:179
+msgid "Show author image"
+msgstr ""
+
+#: partials/widgets/post-overlay-slider.php:15
+msgid "Newscrunch : Overlay Slider"
+msgstr ""
+
+#: partials/widgets/post-overlay-slider.php:18
+msgid "Display your posts as an overlay slider."
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:13
+#: partials/widgets/register-sidebars.php:43
+msgid "Front Left Content"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:15
+#: partials/widgets/register-sidebars.php:45
+msgid "Add widgets in front page"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:15
+#: partials/widgets/register-sidebars.php:30
+#: partials/widgets/register-sidebars.php:45
+#: partials/widgets/register-sidebars.php:60
+msgid "widget area"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:28
+#: partials/widgets/register-sidebars.php:58
+msgid "Front Sidebar"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:30
+#: partials/widgets/register-sidebars.php:60
+msgid "Add widgets in front sidebar"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:75
+msgid "Add widgets in right sidebar widget area"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:86
+msgid "Side Panel"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:88
+msgid "Add widgets in side panel widget area"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:101
+#: partials/widgets/register-sidebars.php:116
+#: partials/widgets/register-sidebars.php:131
+#: partials/widgets/register-sidebars.php:146
+msgid "Footer"
+msgstr ""
+
+#: partials/widgets/register-sidebars.php:103
+#: partials/widgets/register-sidebars.php:118
+#: partials/widgets/register-sidebars.php:133
+#: partials/widgets/register-sidebars.php:148
+msgid "Add widgets in footer widget area"
+msgstr ""
+
+#: partials/widgets/single-column.php:16
+msgid "Newscrunch : Single Column Sidebar"
+msgstr ""
+
+#: partials/widgets/single-column.php:19
+msgid "Display your blog in a single-column layout."
+msgstr ""
+
+#: partials/widgets/social-icons.php:15
+msgid "Newscrunch : Social Icons Sidebar"
+msgstr ""
+
+#: partials/widgets/social-icons.php:18
+msgid "Display your social icons"
+msgstr ""
+
+#: partials/widgets/social-icons.php:166 partials/widgets/social-icons.php:172
+#: partials/widgets/social-icons.php:178 partials/widgets/social-icons.php:184
+#: partials/widgets/social-icons.php:190 partials/widgets/social-icons.php:196
+#: partials/widgets/social-icons.php:202 partials/widgets/social-icons.php:208
+msgid "Followers"
+msgstr ""
+
+#: partials/widgets/tabs.php:15
+msgid "Newscrunch : Post Tab Sidebar"
+msgstr ""
+
+#: partials/widgets/tabs.php:18
+msgid "Display your posts in tabs"
+msgstr ""
+
+#: partials/widgets/tabs.php:55
+msgid "Recent"
+msgstr ""
+
+#: partials/widgets/tabs.php:60
+msgid "Popular"
+msgstr ""
+
+#: partials/widgets/tabs.php:65
+msgid "Comment"
+msgstr ""
+
+#: partials/widgets/tabs.php:221
+msgid "Hide default thumbnail image"
+msgstr ""
+
+#: partials/widgets/tabs.php:223 partials/widgets/tabs.php:239
+msgid "Hide"
+msgstr ""
+
+#: partials/widgets/tabs.php:224 partials/widgets/tabs.php:238
+msgid "Show"
+msgstr ""
+
+#: partials/widgets/tabs.php:236
+msgid "Show post featured image"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-single.php:65
+msgid "Tag"
+msgstr ""

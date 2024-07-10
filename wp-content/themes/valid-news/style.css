@@ -1,0 +1,264 @@
+/*!
+Theme Name: Valid News
+Theme URI: https://adorethemes.com/downloads/valid-news/
+Author: Adore Themes
+Author URI: https://adorethemes.com/
+Description: Valid News theme is a modern WordPress design created for news magazines. Its stylish and adaptable structure is well-suited for diverse creative online platforms, including news portals, press journals, online diaries, and gaming periodicals. The theme offers user-friendly functionalities like ready-made examples, widget personalization, and real-time customization through the WordPress interface, making theme setup effortless. Furthermore, the theme's search engine optimized coding enhances discoverability and boosts visits, and its neat and protected coding ensures seamless operation across various devices and systems. You can preview the theme demo here: https://demo.adorethemes.com/valid-news/
+Version: 1.0.0
+Requires at least: 5.0
+Requires PHP: 7.4
+Tested up to: 6.3
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: fact-news
+Text Domain: valid-news
+Tags: custom-background, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, left-sidebar, right-sidebar, blog, one-column, portfolio, photography, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Valid News is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+
+/* Root
+========================================================================== */
+:root {
+	--primary-color: #3a7fd8;
+}
+
+
+/* Adore Advertisement
+========================================================================== */
+.adore-adver-part a {
+	display: block;
+	line-height: 0;
+}
+
+.adore-adver-part a img {
+	width: 100%;
+}
+
+.adore-adver-part a:focus {
+	outline-color: var(--primary-color);
+	outline-offset: 2px;
+}
+
+/* End Adore Advertisement
+========================================================================== */
+
+/* Counter
+========================================================================== */
+.dispay-number .news-ticker-section-wrapper ul.newsticker li .newsticker-outer .newsticker-image .ticker-no {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	font-weight: 700;
+	display: flex;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	font-size: var(--font-size-sm);
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.25);
+}
+/* End Counter
+========================================================================== */
+
+/* Banner Section
+========================================================================== */
+/* banner slider */
+.main-banner-section .banner-slider {}
+
+/* banner slider */
+/* banner featured posts */
+.main-banner-section .featured-posts {}
+
+.main-banner-section .featured-posts .post-item {
+	min-height: 259px;
+	margin-bottom: 20px;
+}
+
+/* banner featured posts */
+/* banner tabs */
+.main-banner-section .post-tabs-wrapper {}
+
+.main-banner-section .post-tabs-wrapper .post-tabs-head .post-tabs {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tabs-head .post-tabs li {
+	flex-grow: 1;
+	text-align: center;
+	border: 1px solid var(--color-tab-border);
+}
+
+.main-banner-section .post-tabs-wrapper .post-tabs-head .post-tabs li a {
+	gap: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: var(--color-text);
+	padding: 7px 5px;
+	font-size: calc(var(--font-size-sm) + 1px);
+}
+
+.main-banner-section .post-tabs-wrapper .post-tabs-head .post-tabs li a:not(.inactive) {
+	background-color: var(--primary-color);
+	color: #fff;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper {
+	margin-top: 10px;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper .post-item:nth-child(even) {
+	flex-direction: row;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper .post-item {
+	margin-bottom: 10px;
+	min-height: 90px;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper .post-item .post-item-image {
+	flex: 0 0 30%;
+	max-width: 30%;
+	position: relative;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper .post-item .post-item-image img {
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper .post-item .post-item-content {
+	padding-block: 5px;
+	padding-inline: 10px;
+}
+
+.main-banner-section .post-tabs-wrapper .post-tab-content-wrapper .post-item .post-item-content .entry-title {
+	font-size: var(--font-size-sm);
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+/* banner tabs */
+
+/* style 1 */
+.main-banner-section.style-1 .main-banner-section-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin-inline: -10px;
+}
+
+.main-banner-section.style-1 .main-banner-section-wrapper>div {
+	padding-inline: 10px;
+}
+
+.main-banner-section.style-1 .banner-slider-outer {
+	width: 50%;
+	order: 2;
+}
+
+.main-banner-section.style-1 .banner-slider .post-item {
+	height: 537px;
+}
+
+.main-banner-section.style-1 .featured-posts {
+	width: 23%;
+	order: 1;
+}
+
+.main-banner-section.style-1 .post-tabs-wrapper {
+	width: 27%;
+	order: 3;
+}
+
+.main-banner-section.style-1 .banner-slider .post-item .post-item-content .entry-title {
+	font-size: var(--font-size-lg);
+}
+
+@media (max-width: 1024px) {
+	.main-banner-section.style-1 .banner-slider-outer {
+		width: 100%;
+		order: 1;
+		margin-bottom: 20px;
+	}
+
+	.main-banner-section.style-1 .featured-posts {
+		width: 50%;
+		order: 2;
+	}
+
+	.main-banner-section.style-1 .post-tabs-wrapper {
+		width: 50%;
+	}
+
+	.main-banner-section.style-1 .featured-posts .post-item {
+		min-height: 295px;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.main-banner-section.style-1 .featured-posts .post-item {
+		min-height: 258px;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-banner-section.style-1 .banner-slider .post-item {
+		height: 430px;
+	}
+
+	.main-banner-section.style-1 .featured-posts {
+		width: 100%;
+	}
+
+	.main-banner-section.style-1 .post-tabs-wrapper {
+		width: 100%;
+	}
+}
+
+/* style 1 */
+
+/* End Banner Section
+========================================================================== */
+
+/* Recent Posts Section
+========================================================================== */
+.recentpost-wrapper {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+	.recentpost-wrapper {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+}
+
+@media (max-width: 480px) {
+	.recentpost-wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+/* End Recent Posts Section
+========================================================================== */

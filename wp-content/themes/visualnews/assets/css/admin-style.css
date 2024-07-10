@@ -1,0 +1,14 @@
+.wp-site-blocks .wp-block-search .wp-block-search__inside-wrapper,
+.editor-styles-wrapper .wp-block-search .wp-block-search__inside-wrapper {
+  padding: 0; }
+  .wp-site-blocks .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button,
+  .editor-styles-wrapper .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__button {
+    cursor: pointer; }
+
+.wp-site-blocks .wp-block-search.transparent-field .wp-block-search__inside-wrapper .wp-block-search__input,
+.editor-styles-wrapper .wp-block-search.transparent-field .wp-block-search__inside-wrapper .wp-block-search__input {
+  background: transparent; }
+
+.wp-site-blocks .wp-block-search.field-light-color .wp-block-search__inside-wrapper .wp-block-search__input,
+.editor-styles-wrapper .wp-block-search.field-light-color .wp-block-search__inside-wrapper .wp-block-search__input {
+  color: #fff; }

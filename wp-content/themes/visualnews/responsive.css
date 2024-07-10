@@ -1,0 +1,130 @@
+/* Responsive CSS Style */
+/* Begin of mobile navigation fix */
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .submenu-container,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+  padding-top: 1rem; }
+
+@media (min-width: 1024px) {
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: none !important; }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: block !important;
+    width: 100%;
+    position: relative;
+    z-index: auto;
+    background-color: inherit; } }
+/* neutralize the wp default for 600px */
+@media (min-width: 600px) {
+  .wp-block-navigation__responsive-container-open:not(.always-shown) {
+    display: flex; }
+
+  .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+    display: none; } }
+/* End of mobile navigation fix */
+@media only screen and (max-width: 1240px) {
+  footer.wp-block-template-part .is-layout-constrained {
+    width: 100%; } }
+@media only screen and (min-width: 960px) and (max-width: 1239px) {
+  .is-layout-constrained {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto; }
+    .is-layout-constrained .is-layout-constrained {
+      width: 100%; }
+
+  .wp-block-navigation__responsive-dialog {
+    gap: 15px; } }
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+  header.wp-block-template-part {
+    margin-bottom: 1rem;
+    position: relative; }
+    header.wp-block-template-part .wp-block-site-title {
+      font-size: 1.4em;
+      text-align: left !important; }
+
+  .is-layout-constrained {
+    width: 96%;
+    margin: 0 auto; }
+    .is-layout-constrained .is-layout-constrained {
+      width: 100%; }
+
+  .header-quote {
+    display: none; }
+
+  .header-logo .wp-block-group {
+    justify-content: left; }
+  .header-logo p {
+    display: none; }
+
+  .site-start {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    height: 60px;
+    line-height: 60px; }
+
+  .wp-block-site-logo.is-default-size img {
+    max-height: 60px;
+    width: auto; }
+
+  .wp-block-site-title {
+    line-height: 60px; }
+
+  .top-bar {
+    padding: 6px 0 !important; }
+
+  .primary-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0 !important;
+    position: absolute;
+    right: 1rem;
+    bottom: 18px;
+    width: auto; } }
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .wp-block-navigation__responsive-dialog {
+    gap: 15px; } }
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .content-list {
+    margin-top: 1rem !important; }
+    .content-list figure {
+      margin-right: 1rem; }
+    .content-list .wp-block-post {
+      margin: 0 0 1rem 0;
+      padding: 0 0 1rem 0; }
+    .content-list .wp-block-post-title {
+      font-size: 1.1rem !important;
+      margin-bottom: 5px !important; }
+    .content-list h2 + div {
+      display: none; }
+    .content-list .wp-block-query-pagination {
+      margin-top: 1rem !important; }
+
+  .wp-block-group.has-background {
+    padding: 1.25rem !important; }
+
+  .wp-block-group.has-background.top-bar {
+    padding: 6px 0 !important; }
+
+  .sub-links {
+    display: none !important; } }
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .content-list figure {
+    width: 170px; } }
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  .content-list figure {
+    width: 120px;
+    margin-bottom: 0; }
+  .content-list .wp-block-post-title {
+    font-size: 16px !important;
+    margin-bottom: 5px !important; }
+  .content-list .wp-block-post-author,
+  .content-list .wp-block-post-excerpt {
+    display: none; } }
+
+/*# sourceMappingURL=responsive.css.map */
